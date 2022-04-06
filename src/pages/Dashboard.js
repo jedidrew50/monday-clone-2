@@ -12,7 +12,7 @@ const tickets = [
         status: 'done',
         priority: 5,
         progress: 40,
-        description: 'Make a video showcasing how to work with NFTs safely',
+        description: 'Make a video showcasing how to NFT',
         timestamp: '2022-02-11T07:36:17+0000'
 
     },
@@ -32,7 +32,7 @@ const tickets = [
     {
         category: 'Q2 2022',
         color: 'blue',
-        title: 'Build the Razor Crest from Star Wars the Mandolorian',
+        title: 'Build the Razor Crest',
         owner: 'Drew Norman',
         avatar: 'https://avatars.githubusercontent.com/u/88216697?v=4',
         status: ' work in progress',
@@ -42,6 +42,14 @@ const tickets = [
         timestamp: '2022-04-15T07:36:17+0000'
 
     }
+]
+
+const colors = [
+    'rgb(255,179,186)',
+    'rgb(255,223,186)',
+    'rgb(255,223,186)',
+    'rgb(186,255,201)',
+    'rgb(186,255,255)'
 ]
 
 const uniqueCategories = [
